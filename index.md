@@ -1,3 +1,26 @@
+#Overview
+![Image]("profile.png")
+
+#Research and Knowledge Exchange
+
+##Notable Output
+
+##Activities and Training
+
+#Teaching and Education
+
+##Notable Output
+
+##Units Taught
+
+#International Engagement
+##Notable Output 
+
+#Academic Citizenship
+##Notable Output
+
+
+#The following is boilerplate and will be deleted.
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/doctorhenry/personal-blog-jh/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
