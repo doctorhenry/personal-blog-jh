@@ -2,7 +2,7 @@
 I am a Lecturer in Games at the Manchester Metropolitan University. I received my PhD after defining a software development framework for the development of Serious Games and the Internet of Things from Liverpool John Moores University in 2018.  After my PhD and a short period as an Associate Lecturer in Web Development at Edge Hill University, I entered the world of the industry as a Software Engineer, programming a self-service kiosk with remote analytics and maintenance for a car hire company. I am actively researching the effectiveness of utilising machine-learning with the Internet of Things and Games for mental and physical rehabilitation, the effectiveness of gamification in higher education, and the effectiveness of games for rational emotional behavioural therapy.
 
 As part of my role at MMU, I am also the Lead Personal Tutor for the Department of Computing and Mathematics and the Early Careers Representative
-![Image]("profile.jfif")
+![Image]("img/profile.jfif")
 
 ## Research and Knowledge Exchange
 
