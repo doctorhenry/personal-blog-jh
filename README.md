@@ -1,0 +1,2 @@
+# personal-blog-jh
+Hello and welcome to my personal blog covering research and teaching accomplishments. As a researcher, I investigate the use of games based solutions in education and healthcare applications. Research projects include Games for REBT, Machine Learning and BVP signals for anxiety recognition, Gamification in higher education and more. My teaching focuses on games development, the development of personal skills and web development.
