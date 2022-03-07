@@ -119,6 +119,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
 }
 
+/* Style that first letter! */
+p::first-letter {
+  font-size: 300%;
+}
+
 /*
  * Footer
  */
