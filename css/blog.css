@@ -124,6 +124,10 @@ p::first-letter {
   font-size: 300%;
 }
 
+.pub{
+  margin-bottom: 1.25%;
+}
+
 /*
  * Footer
  */
