@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Style that first letter! */
-p::first-letter {
+.first-letter {
   font-size: 300%;
 }
 
