@@ -1,4 +1,15 @@
 /* stylelint-disable selector-list-comma-newline-after */
+.body{
+  /* background-color: #eaeae7; */
+  /* background-color: #bfd7e3; */
+  /* background-color: #f0a541; */
+  /* background-color: #f5edec; */
+  /* background-color: #ebf3f3; */
+  /* background-color: #fcf4ef; */
+  /* background-color: #e3d3c4; */
+  background-color: #ebf2e8;
+
+}
 .img-circle{
  border-radius: 50%; 
 }
