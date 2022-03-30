@@ -40,7 +40,8 @@ $.fn.isInViewport = function() {
 $(window).on('resize scroll', function() {
     //Code here
     if($("#profile").isInViewport())
-    {        
+    {
+         $("#profile").css("visibility","");  
           // Fade in
         $("#profile").fadeIn();
     }
