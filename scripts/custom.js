@@ -48,7 +48,7 @@ $(window).on('resize scroll', function() {
     {
         // Hide
         //$("#profile").hide();             
-        $("#profile").css("display","none");             
+        $("#profile").css("visibility","hidden");             
     }
     /*if($("#h-posts").isInViewport())
     {
