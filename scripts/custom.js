@@ -47,14 +47,15 @@ $(window).on('resize scroll', function() {
     else
     {
         // Hide
-        $("#profile").hide();             
+        //$("#profile").hide();             
+        $("#profile").css("display","none");             
     }
-    if($("#h-posts").isInViewport())
+    /*if($("#h-posts").isInViewport())
     {
         $("#h-posts").fadeIn();  
     }
     else
     {
         $("#h-posts").hide();
-    }     
+    }    */ 
 });
