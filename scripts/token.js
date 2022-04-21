@@ -1,17 +1,9 @@
-let searchURL = new URLSearchParams(window.location.search)
-let token = "";
-if(searchURL.has("access_token"))
-{
-    if(searchURL.get("access_token") != "")
-    {
-        token = searchURL.get("access_token");
-        console.log(token);
-        document.getElementById("body").innerHTML = token;
-    }
-    else
-    {
-        document.getElementById("body").innerHTML = "No token found";
-    }
+var myUrl = new URL(window.location.href.replace(/#/g,"?"));
+var token = myUrl.searchParams.get("access_token")
+if(token)
+{    
+    console.log(token);
+    document.getElementById("body").innerHTML = token;
 }
 else
 {
