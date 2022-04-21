@@ -6,6 +6,7 @@ function getToken(){
         if(searchURL.get("access_token") != "")
         {
             token = searchURL.get("access_token");
+            console.log(token);
             document.getElementById("body").innerHTML = token;
         }
         else
