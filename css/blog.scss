@@ -1,5 +1,10 @@
 /* stylelint-disable selector-list-comma-newline-after */
-
+:root{
+  --top-color: #cec10e;
+  --bottom-color: #2196F3;
+  --width: 100vw;
+  --full-width: 100vw;
+}
 .body{
   /* background-color: #eaeae7; */
   /* background-color: #bfd7e3; */
@@ -9,7 +14,6 @@
   /* background-color: #fcf4ef; */
   /* background-color: #e3d3c4; */
   background-color: #ebf2e8;
-
 }
 .img-circle{
  border-radius: 50%; 
@@ -165,4 +169,95 @@ h1, h2, h3, h4, h5, h6 {
 
 .width-restrict-50{
   max-width: 50%;
+}
+
+/* .separator {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+}
+
+.separator::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  background-color: var(--top-color);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+  z-index: -1;
+}
+
+.separator::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  background-color: var(--bottom-color);
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  z-index: -1;
+} */
+
+.purple-game-section {
+  background: purple;
+  color: white;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 10rem 20%;
+}
+
+.yellow-game-section {
+  background: #cec10e;
+  color: white;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 10rem 20%;
+  z-index: -1;
+}
+
+.hero--diagonal {
+  position: relative;
+  background-color: transparent;
+  min-height: 50vh;
+  padding: 1vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 100px);
+    clip-path: polygon(0% 0%, 100% 50px, 100% 100%, 0% calc(100% - 50px));
+    background-color: rgb(143, 15, 15);
+  }
+
+  .hero__content {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.game-content-purple{
+  background-color: rgb(114, 17, 206) !important; 
+  color: white !important; 
+}
+
+.game-content-blue{
+  background-color: #2196F3 !important; 
+  color: white !important; 
+}
+
+.game-content-red{
+  background-color: rgb(206, 17, 74) !important; 
+  color: white !important; 
+}
+
+.yellow-background{
+  background: #cec10e;
+}
+
+.picture-resize-container
+{
+   max-width: 940px;
 }
