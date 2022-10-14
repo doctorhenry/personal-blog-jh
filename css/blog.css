@@ -158,3 +158,11 @@ h1, h2, h3, h4, h5, h6 {
 .index{
   text-align: right;
 }
+
+.bg-game-green{
+  background-color: #8bbe1b;
+}
+
+.width-restrict-50{
+  max-width: 50%;
+}
