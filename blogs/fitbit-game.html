@@ -1,0 +1,37 @@
+<div class="row">
+    <div class="col-sm makebold"><span class="first-letter">T</span>he use of pulse rate as gaming input presents multiple technological challenges, including:
+        <ul>
+            <li>Middleware development </li>
+            <li>Internet protocols </li>
+            <li>Sample rate </li>
+        </ul>
+                
+        Aside of these, it is crucial to develop game mechanics that integrate the technology in a meaningful way.<br/><br/>
+        Two applications were developed to source the data from a Fitbit Versa 2. The first application sits on the watch itself and the second application on the phone that is paired to the watch. <br/><br/>
+        Both applications are programmed in JavaScript and are responsible for collecting data from the watch, beaming the data through Bluetooth to the phone, then from the phone, sending the data to over the Interent through a cloud websocket <br/><br/>
+        The cloud websocket of choice was Pie Socket as they offer a straightforward integration with Unity projects. This is important as the game is developed using the Unity game engine and C#. <br/><br/>        
+        
+    </div>
+    <div class="col-sm">
+        <img src="img/fitbit-arch.png" width="450rem" alt="System architecture of the fitbit game">
+    </div>
+</div>
+
+<div class="row">    
+    <div class="col-sm">
+        <video width="720" controls>
+            <source src="img/fitbit-game.mp4" type="video/mp4">            
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="col-sm makebold"><span class="first-letter">W</span>ebsockets allow for near real-time communication with devices and is often found in machine to machine communication systems. Although this is a game, we still need that machine to machine communication to interact with the sensors in the Fitbit.<br/><br/>
+        Finally, we need to ensure that the communication is coming through at a rate that is fast enough to keep the gaming experience fluid but slow enough that maintains a good level of performance. The sample rate was once every five seconds as received in the game. <br/><br/>
+        With the system development complete, we must focus on how we can turn all of that into a gaming experience that is fun yet challenging. There are two core mechanics in the game:
+        <ul>
+            <li>Jog to keep up a good pace against a monster that chases you continously. </li>
+            <li>Sprint over 15 seconds to generate enough boost through your heart rate so you can jump between platforms. </li>
+        </ul>
+        The video navigates through the whole system and gaming experience tied togather. The project is still only a prototype with a wide range of potential applications still being explored.<br/><br/>
+        
+    </div>
+</div>
